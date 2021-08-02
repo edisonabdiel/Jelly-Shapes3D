@@ -7,7 +7,7 @@ const Header = () => {
         <span>JELLY THREE FIBER</span>
       </div>
       <div className='signature'>
-        <span>EDISONABDIEL</span>
+        <span>EDISONABDIEL.</span>
       </div>
     </header>
   );
