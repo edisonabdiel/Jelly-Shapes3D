@@ -4,10 +4,10 @@ const Header = () => {
   return (
     <header>
       <div className='logo'>
-        <span>REACT THREE FIBER</span>
+        <span>JELLY THREE FIBER</span>
       </div>
-      <div className='episode'>
-        <span>EP. 1</span>
+      <div className='signature'>
+        <span>EDISONABDIEL</span>
       </div>
     </header>
   );

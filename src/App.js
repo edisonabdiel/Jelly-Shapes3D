@@ -41,16 +41,6 @@ const SpinningMesh = ({ position, color, speed, args }) => {
         factor={0.6}
       />
     </a.mesh>
-
-    //Using Drei box if you want
-    // <Box {...props} ref={mesh} castShadow>
-    //   <MeshWobbleMaterial
-    //     {...props}
-    //     attach='material'
-    //     factor={0.6}
-    //     Speed={1}
-    //   />
-    // </Box>
   );
 };
 
@@ -92,12 +82,12 @@ const App = () => {
           </mesh>
           <SpinningMesh
             position={[0, 1, 0]}
-            color='lightblue'
-            args={[3, 2, 1]}
+            color='#4C83FF'
+            args={[3, 2, 2]}
             speed={2}
           />
-          <SpinningMesh position={[-2, 1, -5]} color='pink' speed={6} />
-          <SpinningMesh position={[5, 1, -2]} color='pink' speed={6} />
+          <SpinningMesh position={[-2, 1, -5]} color='#E80505' args={[1, 3, 2]} speed={4} />
+          <SpinningMesh position={[5, 1, -2]} color='#3CD500' args={[1, 1, 3]} speed={3} />
         </group>
         {/* Allows us to move the canvas around for different prespectives */}
         <OrbitControls />
